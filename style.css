@@ -22,7 +22,7 @@ zero-md {
   color: #288f56;
 }
 
-.smugMessage {
+#smugMessage {
   color: rgba(255, 255, 255, 0.66);
   font-family: 'Courier New', Courier, monospace;
   font-size: 80%;
@@ -46,9 +46,13 @@ div {
   align-items: center;
 }
 
+#choices {
+  background-color: #ea545e59;
+}
+
 button, select {
   padding: 12px;
   border: none;
-  background-color: #ea5497;
-  box-shadow: 10px 10px #288f56;
+  background-color: #ea545e;
+  box-shadow: 5px 5px #288f56;
 }
