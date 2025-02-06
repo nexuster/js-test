@@ -15,6 +15,13 @@ body {
   text-align: center;
 }
 
+zero-md {
+  font-family: 'Micro 5', cursive;
+  font-size: 150%;
+  
+  color: #288f56;
+}
+
 .smugMessage {
   color: grey;
   font-family: 'Courier New', Courier, monospace;
