@@ -50,13 +50,17 @@ div {
   background-color: #ea545e59;
 }
 
-button, select {
+button, select, option {
   padding: 12px;
   border: none;
   background-color: #ea545e;
   box-shadow: 5px 5px #288f56;
 }
 
-button:hover {
-  border: 2px #ffffff;
+button:hover, select:hover, option:hover {
+  border: 2px solid #ffffff;
+}
+
+button:active {
+  transform: translateY(2px);
 }
