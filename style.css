@@ -3,4 +3,14 @@
 body {
   font-family: 'Micro 5', cursive;
   font-size: 150%;
+  color: aliceblue;
+}
+
+.container {
+  margin: 5px;
+  width: 300px;
+  align-self: center;
+  background-color: #5c5c80;
+  padding: 5px;
+  border-radius: 6px;
 }
