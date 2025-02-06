@@ -36,9 +36,9 @@ im also gonna try to use this website for html and css testing aswell
         <script>
             function send() {
                 var div = document.createElement('DIV')
-                var text = document.getElementById('sendto')
+                var text = document.getElementById('sendto').value
                 if (text) {
-                    div.textContent = text.value
+                    div.textContent = text
                 }
             }
         </script>
