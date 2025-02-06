@@ -3,16 +3,26 @@
 body {
   font-family: 'Micro 5', cursive;
   font-size: 150%;
+
   color: aliceblue;
 }
 
-.container {
-  margin: 5px;
-  width: 300px;
-  display: flex;
-  align-self: center;
-  align-items: center;
-  background-color: #5c5c80;
+.smugMessage {
+  color: grey;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*--------------------------------------------------------*/
+
+div {
+  display: block;
+  margin: 20px auto;
+
   padding: 5px;
   border-radius: 6px;
+
+  background-color: #5c5c80;
+
+  width: 80%;
+  max-width: 800px;
 }

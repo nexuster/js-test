@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JSTS - UPARA OUTPUT</title>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <div id="output">
+            <!-- text will dynamically display here!! -->
+        </div>
+        <script>
+            window.onload = function() {
+                var upara = new URLSearchParams(window.location.search);
+                var output = document.getElementById('output');
+
+                output.textContent = upara.get('text');
+            }
+        </script>
+    </body>
+</html>

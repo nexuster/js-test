@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JSTS - URL PARAMETERS</title>
+        <link rel="stylesheet" href="./style.css"/>
+    </head>
+    <body>
+        <div>
+            <label for="utext">type in whatever you want to</label>
+            <input type="text" id="upara-text" name="utext"/>
+            <button onclick="send()">send to url</button>
+        </div>
+        <script>
+            function send() {
+                var text = document.getElementById('upara-text').value;
+                if (text) {
+                    alert('"'+text+' will now be sent');
+                    window.location.href = "output.html?text=" + encodeURIComponent(text);
+                } else {
+                    if (error || text.trim() == '') {
+                        alert('something prevented the code from running correctly');
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
