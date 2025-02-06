@@ -11,11 +11,14 @@ body {
   padding: 0;
 
   color: aliceblue;
+  
+  align-text: center;
 }
 
 .smugMessage {
   color: grey;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 100%;
 }
 
 /*--------------------------------------------------------*/
