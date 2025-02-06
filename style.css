@@ -46,7 +46,7 @@ div {
   align-items: center;
 }
 
-#choices {
+#pretty {
   background-color: #ea545e59;
 }
 
@@ -55,4 +55,8 @@ button, select {
   border: none;
   background-color: #ea545e;
   box-shadow: 5px 5px #288f56;
+}
+
+button:hover {
+  border: 2px #ffffff;
 }
