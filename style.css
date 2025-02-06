@@ -18,14 +18,14 @@ body {
 zero-md {
   font-family: 'Micro 5', cursive;
   font-size: 150%;
-  
+
   color: #288f56;
 }
 
 .smugMessage {
-  color: grey;
+  color: rgba(255, 255, 255, 0.66);
   font-family: 'Courier New', Courier, monospace;
-  font-size: 100%;
+  font-size: 80%;
 }
 
 /*--------------------------------------------------------*/
