@@ -84,3 +84,7 @@ button:active, input:active {
   position: absolute;
   bottom: 0;
 }
+
+#invisMsgCont {
+  position: relative;
+}
