@@ -23,21 +23,28 @@ im also gonna try to use this website for html and css testing aswell
 <!DOCTYPE html>
 <html>
     <head>
-        <title>JSTS - URL PARAMETERS</title>
+        <title>JSTS - LONELY MESSAGES</title>
         <link rel="stylesheet" href="https://nexuster.github.io/js-test/style.css"/>
     </head>
     <body>
         <div>
+            <div id="messagesOutput" class="pretty" style="display:none;">
+                <!-- paragraphs with dynamically appear here -->
+            </div>
             <label for="utext">send a message</label>
             <input type="text" id="sendto" name="utext"/>
             <button onclick="send()">create div</button>
         </div>
         <script>
             function send() {
-                var div = document.createElement('DIV')
-                var text = document.getElementById('sendto').value
-                if (text) {
-                    div.textContent = text
+                var para = document.createElement('p');
+                var div = document.getElementById('messagesOutput');
+                var node = document.createTextNode(document.getElementById('sendto').value);
+                if (node.textContent) {
+                    para.appendChild(node);
+                    para.style.color = 'aliceblue';
+                    div.appendChild(para);
+                    div.style.display = 'block';
                 }
             }
         </script>

@@ -6,12 +6,12 @@
     </head>
     <body>
         <div>
+            <div id="messagesOutput" class="pretty" style="display:none;">
+                <!-- paragraphs with dynamically appear here -->
+            </div>
             <label for="utext">send a message</label>
             <input type="text" id="sendto" name="utext"/>
             <button onclick="send()">create div</button>
-        </div>
-        <div id="messagesOutput" class="pretty" style="display:none;">
-            <!-- paragraphs with dynamically appear here -->
         </div>
         <script>
             function send() {
@@ -20,6 +20,7 @@
                 var node = document.createTextNode(document.getElementById('sendto').value);
                 if (node.textContent) {
                     para.appendChild(node);
+                    para.style.color = 'aliceblue';
                     div.appendChild(para);
                     div.style.display = 'block';
                 }
