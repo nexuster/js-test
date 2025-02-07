@@ -9,6 +9,7 @@ window.onload = function() {
                 var navDiv = document.createElement('div');
                 navDiv.appendChild(navSpan.cloneNode(true));
                 document.body.insertBefore(navDiv, document.body.firstChild);
+                alert('successfully loaded navbar');
             }
         })
         .catch(error => alert('error loading navbar:' + error));
