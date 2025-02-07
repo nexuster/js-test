@@ -10,13 +10,19 @@
             <input type="text" id="sendto" name="utext"/>
             <button onclick="send()">create div</button>
         </div>
+        <div id="messagesOutput" class="pretty">
+            <!-- paragraphs with dynamically appear here -->
+        </div>
         <script>
             function send() {
-                var div = document.createElement('DIV')
-                var text = document.getElementById('sendto').value
+                var para = document.createElement('p');
+                var div = document.getElementById('messagesOutput');
+                var text = document.getElementById('sendto');
                 if (text) {
-                    div.textContent = text
+                    para.textContent = text.value;
                 }
+                div.appendChild(para);
+                div.display = 'block';
             }
         </script>
     </body>
