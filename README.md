@@ -9,12 +9,12 @@ if you are seeing the source code and you want to go to the website [click here]
 im also gonna try to use this website for html and css testing aswell
 
 
-## current things im working on {.pretty}
-#### these will be crossed off when im done (~strikethrough~)
-- ~~dropdowns that send to specific websites using "value=" (probably gonna be used for choose which test)~~
-- ~~url parameters because who doesnt like using those~~
-- ~~lonely message sending~~
-- page that shows something random everytime its opened
+>{.pretty} ## current things im working on
+    #### these will be crossed off when im done (~strikethrough~)
+    - ~~dropdowns that send to specific websites using "value=" (probably gonna be used for choose which test)~~
+    - ~~url parameters because who doesnt like using those~~
+    - ~~lonely message sending~~
+    - page that shows something random everytime its opened
 
 
 ## try this piece of code

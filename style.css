@@ -30,7 +30,7 @@ zero-md {
 
 /*--------------------------------------------------------*/
 
-div {
+div, blockquote {
   display: block;
   margin: 30px auto;
 
