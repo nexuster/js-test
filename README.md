@@ -14,6 +14,7 @@ im also gonna try to use this website for html and css testing aswell
 - ~~dropdowns that send to specific websites using "value=" (probably gonna be used for choose which test)~~
 - ~~url parameters because who doesnt like using those~~
 - ~~lonely message sending~~
+- navbar thats loaded from javascript pulled from an html file
 - page that shows something random everytime its opened
 
 
