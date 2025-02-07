@@ -1,5 +1,5 @@
 window.onload = function() {
-    if (!window.location.href == 'https://nexuster.github.io/js-test/navbar/navscript.js') {
+    if (!window.location.href == 'navbar/navbar.html') {
         alert('test for href check')
         var navSpan = document.getElementById('navbar');
         var navDiv = document.createElement('div');
