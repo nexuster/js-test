@@ -25,7 +25,7 @@ function send() {
 
 window.onload = function() {
     var upara = new URLSearchParams(window.location.search);
-    if (window.location.search = 'https://nexuster.github.io/js-test/tests/upara/output.html?text='+upara.get('text')) {
+    if (window.location.search == 'https://nexuster.github.io/js-test/tests/upara/output.html?text='+upara.get('text')) {
         var output = document.getElementById('output');
 
         output.textContent = upara.get('text');
