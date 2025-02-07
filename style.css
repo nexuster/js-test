@@ -14,6 +14,8 @@ body {
   
   text-align: center;
   margin: auto;
+
+  position: relative;
 }
 
 zero-md {
@@ -60,10 +62,25 @@ button, select, option {
   background-color: #ea545e;
 }
 
-button:hover, select:hover, option:hover {
+input {
+  padding: 12px;
+  border: none;
+  box-shadow: 5px 5px #288f56;
+
+  background-color: #a5ffcd;
+}
+
+button:hover, select:hover, option:hover, input:hover {
   border: 2px solid #ffffff;
 }
 
-button:active {
+button:active, input:active {
   transform: translateY(2px);
+}
+
+/* messages ------------------------- */
+
+#msgContainer {
+  position: absolute;
+  bottom: 0;
 }
