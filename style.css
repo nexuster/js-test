@@ -6,7 +6,8 @@ body {
 
   background-image: url(https://media.istockphoto.com/id/1386341272/photo/abstract-modern-tech-of-programming-code-screen-developer.jpg?s=612x612&w=0&k=20&c=16FJUoZ6j-XmBDF0g-llzkJaIsdpf6uz46D4eQfL_LM=);
   /*coding photo from istock*/
-  background-size: cover;
+  background-size: cover auto;
+  background-position: fixed;
   margin: 0;
   padding: 0;
 
