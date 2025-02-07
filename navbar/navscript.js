@@ -1,11 +1,17 @@
 window.onload = function() {
     alert('test for active js');
     
-    // Ensure the script only runs if the element exists
-    var navSpan = document.getElementById('navbar');
-    if (navSpan) {
-        var navDiv = document.createElement('div');
-        navDiv.appendChild(navSpan.cloneNode(true)); // Clone to avoid removing original
-        document.body.insertBefore(navDiv, document.body.firstChild); // Insert at the top
-    }
+    fetch('navbar/navbar.html')
+        .then(response => response.text())
+        .then(data => {
+            var parser = new DOMParser();
+            var doc = parser.parseFromString(data, 'text/html');
+            var navSpan = doc.getElementById('navbar');
+            if (navSpan) {
+                var navDiv = document.createElement('div');
+                navDiv.appendChild(navSpan.cloneNode(true));
+                document.body.insertBefore(navDiv, document.body.firstChild);
+            }
+        })
+        .catch(error => console.error('Error loading navbar:', error));
 }
