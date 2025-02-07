@@ -78,6 +78,11 @@ button:active, input:active {
   transform: translateY(2px);
 }
 
+.padded {
+  padding: 6px;
+  background-color: #ea545e84;
+}
+
 /* messages ------------------------- */
 
 #msgContainer {
