@@ -5,7 +5,7 @@ body {
   font-size: 150%;
 
   /*coding photo from istock*/
-  background: url(https://media.istockphoto.com/id/1386341272/photo/abstract-modern-tech-of-programming-code-screen-developer.jpg?s=612x612&w=0&k=20&c=16FJUoZ6j-XmBDF0g-llzkJaIsdpf6uz46D4eQfL_LM=) no-repeat center center fixed;
+  background: url('https://media.istockphoto.com/id/1386341272/photo/abstract-modern-tech-of-programming-code-screen-developer.jpg?s=2048x2048&w=0&k=20&c=16FJUoZ6j-XmBDF0g-llzkJaIsdpf6uz46D4eQfL_LM=') no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -87,5 +87,5 @@ button:active, input:active {
 #invisMsgCont {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 75vh;
 }
