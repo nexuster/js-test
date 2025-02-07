@@ -1,0 +1,4 @@
+document.body.appendChild(Object.assign(document.createElement('div'), {textContent: 'hi'}));
+var sine = 0; var movingDiv = document.body.appendChild(Object.assign(document.createElement('div'), {style: 'width: 50px; height: 50px; background-color: red; position: absolute;'})); function animate() {sine += 0.1; movingDiv.style.transform = 'translateX(' + (Math.sin(sine) * 100) + 'px)'; requestAnimationFrame(animate);} animate();
+alert('my youtube'); window.location.href = 'https://youtube.com/@nexuster';
+document.body.appendChild(Object.assign(document.createElement('img'), {src: 'https://nexuster.github.io/js-test/images/icon.png'}));

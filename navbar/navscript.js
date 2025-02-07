@@ -1,6 +1,4 @@
 window.onload = function() {
-    alert('test for active js');
-    
     fetch('navbar/navbar.html')
         .then(response => response.text())
         .then(data => {
@@ -13,5 +11,5 @@ window.onload = function() {
                 document.body.insertBefore(navDiv, document.body.firstChild);
             }
         })
-        .catch(error => console.error('Error loading navbar:', error));
+        .catch(error => alert('error loading navbar:' + error));
 }
