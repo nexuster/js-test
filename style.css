@@ -67,9 +67,3 @@ button:hover, select:hover, option:hover {
 button:active {
   transform: translateY(2px);
 }
-
-/* messages.html ----------------------------------------- */
-
-#messagesOutput {
-  display: none;
-}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>JSTS - URL PARAMETERS</title>
+        <title>JSTS - LONELY MESSAGES</title>
         <link rel="stylesheet" href="https://nexuster.github.io/js-test/style.css"/>
     </head>
     <body>
@@ -10,16 +10,16 @@
             <input type="text" id="sendto" name="utext"/>
             <button onclick="send()">create div</button>
         </div>
-        <div id="messagesOutput" class="pretty">
+        <div id="messagesOutput" class="pretty" display="none">
             <!-- paragraphs with dynamically appear here -->
         </div>
         <script>
             function send() {
                 var para = document.createElement('p');
                 var div = document.getElementById('messagesOutput');
-                var text = document.getElementById('sendto');
-                if (text) {
-                    para.textContent = text.value;
+                var node = document.getElementById('sendto');
+                if (node.value) {
+                    para.appendChild(node.value)
                 }
                 div.appendChild(para);
                 div.display = 'block';
